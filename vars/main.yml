@@ -1,7 +1,7 @@
 ---
 custom_heading: "Welcome To DevOps B28 Batch Training By Sreeharsha Veerapalli"
-todays_date: "{{ ansible_facts['date_time']['date'] }}"
 host_name: "{{ ansible_facts['hostname'] }}"
+todays_date: "{{ ansible_facts['date_time']['date'] }}"
 fqdn_name: "{{ ansible_facts['fqdn'] }}"
 os_family: "{{ ansible_facts['distribution'] }}"
 os_dest: "{{ ansible_facts['distribution_version'] }}"
