@@ -1,5 +1,5 @@
 ---
-custom_heading: "Welcome To DevOps B28 Batch Training By Sreeharsha Veerapalli"
+custom_heading: "Welcome To DevOps B29 Batch Training By Sreeharsha Veerapalli"
 host_name: "{{ ansible_facts['hostname'] }}"
 todays_date: "{{ ansible_facts['date_time']['date'] }}"
 fqdn_name: "{{ ansible_facts['fqdn'] }}"
