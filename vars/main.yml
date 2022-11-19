@@ -1,7 +1,8 @@
 ---
 custom_heading: "Welcome To DevOps B28 Batch Training By Sreeharsha Veerapalli"
 host_name: "{{ ansible_facts['hostname'] }}"
-todays_date: "{{ ansible_facts['date_time']['date'] }}"
+#todays_date: "{{ ansible_facts['date_time']['date'] }}" # Having issues with this varable.
+todays_date: "Nov 19th 2022"
 fqdn_name: "{{ ansible_facts['fqdn'] }}"
 os_family: "{{ ansible_facts['distribution'] }}"
 os_dest: "{{ ansible_facts['distribution_version'] }}"
